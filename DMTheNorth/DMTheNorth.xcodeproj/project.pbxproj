@@ -15,6 +15,9 @@
 		638450D41F4C3C4800ED06BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638450D21F4C3C4800ED06BD /* LaunchScreen.storyboard */; };
 		638450DF1F4C3C4800ED06BD /* DMTheNorthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 638450DE1F4C3C4800ED06BD /* DMTheNorthTests.m */; };
 		638450EA1F4C3C4800ED06BD /* DMTheNorthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 638450E91F4C3C4800ED06BD /* DMTheNorthUITests.m */; };
+		63CCF52A1F4C8BED002DFD7F /* BackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CCF5271F4C8BED002DFD7F /* BackGroundImage.png */; };
+		63CCF52C1F4C8BED002DFD7F /* compassPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CCF5291F4C8BED002DFD7F /* compassPointer.png */; };
+		63CCF52E1F4C9455002DFD7F /* CompassBody.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CCF52D1F4C9455002DFD7F /* CompassBody.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		638450E51F4C3C4800ED06BD /* DMTheNorthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMTheNorthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638450E91F4C3C4800ED06BD /* DMTheNorthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMTheNorthUITests.m; sourceTree = "<group>"; };
 		638450EB1F4C3C4800ED06BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CCF5271F4C8BED002DFD7F /* BackGroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGroundImage.png; sourceTree = "<group>"; };
+		63CCF5291F4C8BED002DFD7F /* compassPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassPointer.png; sourceTree = "<group>"; };
+		63CCF52D1F4C9455002DFD7F /* CompassBody.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompassBody.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		638450C41F4C3C4800ED06BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63CCF5261F4C8BED002DFD7F /* Resources */,
 				638450C51F4C3C4800ED06BD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +145,16 @@
 				638450EB1F4C3C4800ED06BD /* Info.plist */,
 			);
 			path = DMTheNorthUITests;
+			sourceTree = "<group>";
+		};
+		63CCF5261F4C8BED002DFD7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63CCF5271F4C8BED002DFD7F /* BackGroundImage.png */,
+				63CCF5291F4C8BED002DFD7F /* compassPointer.png */,
+				63CCF52D1F4C9455002DFD7F /* CompassBody.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				638450D41F4C3C4800ED06BD /* LaunchScreen.storyboard in Resources */,
+				63CCF52C1F4C8BED002DFD7F /* compassPointer.png in Resources */,
+				63CCF52A1F4C8BED002DFD7F /* BackGroundImage.png in Resources */,
 				638450D11F4C3C4800ED06BD /* Assets.xcassets in Resources */,
+				63CCF52E1F4C9455002DFD7F /* CompassBody.png in Resources */,
 				638450CF1F4C3C4800ED06BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
